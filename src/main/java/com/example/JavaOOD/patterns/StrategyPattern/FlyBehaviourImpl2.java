@@ -1,0 +1,8 @@
+package com.example.JavaOOD.patterns.StrategyPattern;
+
+public class FlyBehaviourImpl2 implements iFlyBehaviour{
+    @Override
+    public void fly() {
+        System.out.println("I am FlyBehaviourImpl2");
+    }
+}
